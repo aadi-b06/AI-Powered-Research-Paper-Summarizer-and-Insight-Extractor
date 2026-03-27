@@ -1,0 +1,14 @@
+{
+    "title": "ReusStdFlow: A Standardized Reusability Framework for Dynamic Workflow",
+    "authors": [
+        "Agentic AI Gaoyang Zhang",
+        "Shanghong Zou",
+        "Yafang Wang",
+        "He Zhang",
+        "Ruohua Xu",
+        "Feng Zhao Accenture Information",
+        "SGITG Kexin Technology"
+    ],
+    "abstract": "To address the \u201creusability dilemma\u201d and struc- tural hallucinations in enterprise Agentic AI, this paper proposes ReusStdFlow, a frame- work centered on a novel \u201cExtraction-Storage- Construction\u201d paradigm. The framework decon- structs heterogeneous, platform-specific Domain- Specific Languages (DSLs) into standardized, modular workflow segments. It employs a dual- knowledge architecture\u2014integrating graph and vector databases\u2014to facilitate synergistic retrieval of both topological structures and functional se- mantics. Finally, workflows are intelligently as- sembled using a retrieval-augmented generation (RAG) strategy. Tested on 200 real-world n8n workflows, the system achieves over 90% accuracy in both extraction and construction. This frame- work provides a standardized solution for the au- tomated reorganization and efficient reuse of enter- prise digital assets.",
+    "summary": "This research paper proposes a framework called ReusStdFlow to address issues with reusing and structuring artificial intelligence (AI) workflows in enterprises. The framework:\n\n1. Breaks down complex workflows into standardized, modular segments.\n2. Uses a dual-knowledge architecture to store and retrieve both structural and functional information.\n3. Assembles workflows intelligently using a retrieval-augmented generation strategy.\n\nTesting on 200 real-world workflows showed that the system achieved over 90% accuracy in both extracting and constructing workflows. The ReusStdFlow framework provides a standardized solution for efficiently reusing and reorganizing digital assets in enterprises, addressing the \"reusability dilemma\" and reducing structural hallucinations in AI systems."
+}

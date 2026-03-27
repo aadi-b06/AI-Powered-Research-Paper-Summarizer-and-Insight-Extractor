@@ -1,0 +1,35 @@
+# API Clients
+google-genai
+groq
+python-dotenv
+
+# PDF Parsing
+pymupdf
+
+# Data Collection
+requests
+feedparser
+
+# Data Processing
+pandas
+openpyxl
+
+# Summarization (optional - needed for extract_pdf.py)
+torch
+torchvision
+transformers
+
+# RAG / Vector Store
+langchain
+langchain-community
+langchain-huggingface
+sentence-transformers
+faiss-cpu
+numpy
+
+# Knowledge Graph
+neo4j
+pyvis
+
+# Dashboard
+streamlit

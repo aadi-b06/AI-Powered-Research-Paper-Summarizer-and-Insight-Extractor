@@ -1,0 +1,21 @@
+{
+    "title": "Beyond VLM-Based Rewards:",
+    "authors": [
+        "Diffusion-Native Latent Reward Modeling",
+        "Gongye Liu",
+        "Bo Yang",
+        "Yida Zhi",
+        "Zhizhou Zhong",
+        "Lei Ke",
+        "Didan Deng",
+        "Han Gao",
+        "Yongxiang Huang",
+        "Kaihao Zhang",
+        "Hongbo Fu",
+        "Wenhan Luo",
+        "Huawei Hong Kong AI",
+        "Data Technologies Lab"
+    ],
+    "abstract": "Preference optimization for diffusion and flow-matching models relies on reward functions that are both discriminatively robust and computationally efficient. Vision-Language Models (VLMs) have emerged as the primary reward provider, leveraging their rich multimodal priors to guide alignment. However, their computation and memory cost can be substantial, and optimizing a latent diffusion generator through a pixel-space reward introduces a domain mismatch that complicates alignment. In this paper, we propose DiNa-LRM, a diffusion-native latent reward model that formulates preference learning directly on noisy diffusion states. Our method introduces a noise-calibrated Thurstone likelihood with diffusion-noise-dependent uncertainty. DiNa-LRM leverages a pretrained latent diffusion backbone with a timestep-conditioned reward head, and supports inference-time noise ensembling, providing a diffusion-native mechanism for test-time scaling and robust rewarding. Across image alignment benchmarks, DiNa-LRM substantially outperforms existing diffusion-based reward baselines and achieves performance competitive with state-of-the-art VLMs at a fraction of the computational cost. In preference optimization, we demonstrate that DiNa-LRM improves preference optimization dynamics, enabling faster and more resource-efficient model alignment. Website: https://github.com/HKUST-C4G/diffusion-rm",
+    "summary": "This research paper proposes a new approach to preference optimization for diffusion and flow-matching models, called DiNa-LRM (Diffusion-Native Latent Reward Model). The main goal is to create a more efficient and effective reward model that can guide alignment in these models. \n\nThe current approach uses Vision-Language Models (VLMs) as the primary reward provider, but these models can be computationally expensive and introduce a domain mismatch. DiNa-LRM addresses these issues by:\n\n1. **Formulating preference learning directly on noisy diffusion states**: This allows for a more native and efficient approach to reward modeling.\n2. **Introducing a noise-calibrated Thurstone likelihood with diffusion-noise-dependent uncertainty**: This provides a more accurate and robust way to model rewards.\n3. **Leveraging a pretrained latent diffusion backbone with a timestep-conditioned reward head**: This enables efficient and effective reward modeling.\n4. **Supporting inference-time noise ensembling**: This provides a diffusion-native mechanism for test-time scaling and robust rewarding.\n\nThe results show that DiNa-LRM:\n\n1. **Outperforms existing diffusion-based reward baselines**: DiNa-LRM achieves better performance in image alignment benchmarks.\n2. **Achieves competitive performance with state-of-the-art VLMs at a fraction of the computational cost**: DiNa-LRM is more efficient and scalable than VLMs.\n3. **Improves preference optimization dynamics**: DiNa-LRM enables faster and more resource-efficient model alignment.\n\nOverall, DiNa-LRM provides a more efficient, effective, and scalable approach to preference optimization for diffusion and flow-matching models, making it a promising solution for various applications."
+}

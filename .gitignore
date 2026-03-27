@@ -1,0 +1,24 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Data files (large/sensitive)
+data/*.pdf
+research_papers_faiss/
+parsed_output/
+arxiv_papers.json
+pubmed_multiple_queries.json
+graph.html
+temp.pdf
+
+# IDE
+.vscode/
+.idea/
+*.DS_Store

@@ -1,0 +1,31 @@
+{
+    "metadata": {
+        "title": "EXCODER: EXPLAINABLE CLASSIFICATION OF DISCRETE",
+        "authors": [
+            "TIME SERIES REPRESENTATIONS ACCEPTED",
+            "AT PAKDD",
+            "Yannik Hahn",
+            "Hasan Tercan",
+            "Tobias Meisen Rainer-Gruenter-"
+        ]
+    },
+    "summary": "Here is a concise research summary:\n\nThis study investigates the use of discrete latent representations in time series classification to enhance explainability. By transforming time series data into compact representations using methods like VQ-VAE and DVAE, the research shows that Explainable AI (XAI) techniques can provide more concise and structured explanations without sacrificing classification performance. A novel metric, Similar Subsequence Accuracy (SSA), is proposed to validate the effectiveness of XAI methods. The findings suggest that discrete latent representations can lead to more interpretable, efficient, and faithful explanations in time series analysis, addressing the challenge of explainability in deep learning models.",
+    "insights": {
+        "domain": "Time Series Analysis",
+        "methods": [
+            "Vector Quantized Variational Autoencoders (VQ-VAE)",
+            "Discrete Variational Autoencoders (DVAE)",
+            "Explainable AI (XAI) techniques"
+        ],
+        "datasets": [],
+        "metrics": [
+            "Similar Subsequence Accuracy (SSA)",
+            "Classification performance"
+        ],
+        "key_findings": [
+            "Discrete latent representations preserve and enhance explainability in time series classification",
+            "Applying XAI methods to compressed representations leads to concise and structured explanations",
+            "Discrete latent representations retain essential characteristics for classification and offer compact, interpretable, and efficient explanations"
+        ]
+    }
+}

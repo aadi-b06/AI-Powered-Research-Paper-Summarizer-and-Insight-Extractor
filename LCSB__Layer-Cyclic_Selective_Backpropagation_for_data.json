@@ -1,0 +1,13 @@
+{
+    "title": "LCSB: Layer-Cyclic Selective Backpropagation for",
+    "authors": [
+        "Memory-Efficient On-Device LLM Fine-Tuning",
+        "Juneyoung Park",
+        "Eunbeen Yoon",
+        "Seongwan Kim",
+        "Jaeho Lee",
+        "Opt-AI Inc"
+    ],
+    "abstract": "Memory-efficient backpropagation (MeBP) has enabled first-order fine-tuning of large lan- guage models (LLMs) on mobile devices with less than 1GB memory. However, MeBP re- quires backward computation through all trans- former layers at every step, where weight de- compression alone accounts for 32\u201342% of backward time. We propose Layer-Cyclic Se- lective Backpropagation (LCSB), which com- putes gradients for only a subset of layers per step. Our key insight is that residual connec- tions guarantee gradient flow through identity paths, while AdamW momentum provides im- plicit updates for non-selected layers. We inter- pret LCSB as Block Coordinate Descent on the LoRA parameter space, providing theoretical justification for convergence. LCSB achieves up to 1.40\u00d7 speedup with less than 2% qual- ity degradation across five models and three tasks. Surprisingly, in 4-bit quantized settings, LCSB exhibits superior stability: a 3B model that completely diverges under full backprop- agation converges smoothly with LCSB, sug- gesting an implicit regularization effect from selective gradient computation.",
+    "summary": "This research summary discusses an improvement to the Memory-efficient Backpropagation (MeBP) method, which allows large language models (LLMs) to be fine-tuned on mobile devices with limited memory. The proposed method, called Layer-Cyclic Selective Backpropagation (LCSB), reduces the computational time of MeBP by only calculating gradients for a subset of layers at each step. This approach achieves a speedup of up to 1.40x with minimal quality degradation (<2%) across various models and tasks.\n\nThe key insights behind LCSB include:\n\n1. **Residual connections**: Allow gradient flow through identity paths, even when not all layers are updated.\n2. **AdamW momentum**: Provides implicit updates for non-selected layers, ensuring they are not left behind.\n\nThe authors provide theoretical justification for LCSB by interpreting it as a Block Coordinate Descent on the LoRA parameter space, which guarantees convergence.\n\nSurprisingly, LCSB exhibits superior stability in 4-bit quantized settings, where it prevents a 3B model from diverging and instead allows it to converge smoothly. This suggests that LCSB has an implicit regularization effect from selective gradient computation.\n\nOverall, LCSB offers a more efficient and stable approach to fine-tuning large language models, particularly in resource-constrained environments."
+}
